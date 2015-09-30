@@ -21,7 +21,7 @@ import re
 import os
 os.system('clear')
 print
-print "Facebook Leak v.10 by x0n3-h4ck"
+print "Facebook Leak v.1.0 by x0n3-h4ck"
 print "Coded by Corrado Liotta aka CorryL"
 print "Info: corryl80@gmail.com"
 print
