@@ -37,11 +37,11 @@ content = response.read()
 risultato = re.findall(r'<strong>(.*?)</strong>',str(content))
 
 print
-print "Person:", risultato
+print "Person:", risultato[0]
 
 immagine = re.findall(r'<div class="s"><img src="(.*?)&amp;size=square',str(content))
 
 print
-print "Profile Image: ",immagine
+print "Profile Image: ",immagine[0]
 print
 
